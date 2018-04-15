@@ -1,5 +1,6 @@
 # flask-restplus-production-skeleton
 
+## Run application
 ```bash
 conda env create -f environment.yml
 ```
@@ -10,7 +11,7 @@ source activate flask-restplus-production-skeleton
 python app/run_app.py [Options]
 ```
 
-# Docker
+## Docker
 ```bash
 docker build --build-arg port=PORT -t flask-restplus-production-skeleton -f Dockerfile .
 ```
